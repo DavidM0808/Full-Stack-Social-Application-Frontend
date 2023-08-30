@@ -18,7 +18,7 @@ function Registration() {
 
     const onSubmit = (data) => {
         axios.post("http://localhost:3001/auth", data).then(() => {
-            console.log(data);
+            alert("User registration successful :)");
         });
     }
 
